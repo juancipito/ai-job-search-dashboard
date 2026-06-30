@@ -1,0 +1,16 @@
+application_id,date,company_alias,role_family,platform,remote_type,country,fit_score,priority,status,follow_up_due,response_received,blocked_by_physical_id,ready_to_apply,keyword_tags,notes
+JOB-0001,2026-03-01,SyntheticCo_01,Junior AI Engineer,LinkedIn,Remote,Canada,86,A,No response,2026-03-08,0,false,true,ai python ml portfolio,Synthetic public row.
+JOB-0002,2026-03-02,SyntheticCo_02,Junior ML Engineer,Indeed,Hybrid,Remote Global,63,B,Applied,2026-03-09,0,false,false,ml python scikit learn,Synthetic public row.
+JOB-0003,2026-03-03,SyntheticCo_03,AI Operations Analyst,Company Site,Remote,Remote Global,84,A,Needs human action,2026-03-10,0,false,true,ai operations analytics,Synthetic public row.
+JOB-0004,2026-03-04,SyntheticCo_04,Data Analyst,Remote Board,Remote,US,88,A,Applied,2026-03-11,0,false,false,data sql python dashboard,Synthetic public row.
+JOB-0005,2026-03-05,SyntheticCo_05,Prompt Evaluator,Referral,Remote,Remote Global,92,A+,Applied,2026-03-12,1,false,false,prompt llm bilingual,Synthetic public row.
+JOB-0006,2026-03-06,SyntheticCo_06,LLM Evaluator,LinkedIn,Remote,US,90,A,Needs human action,2026-03-13,0,false,true,llm evaluator bilingual,Synthetic public row.
+JOB-0007,2026-03-07,SyntheticCo_07,Workforce Analytics,Indeed,Hybrid,Colombia,93,A+,Screening,2026-03-14,1,false,false,wfm rta workforce kpi,Synthetic public row.
+JOB-0008,2026-03-08,SyntheticCo_08,Bilingual Operations + Data,Company Site,Remote,Remote Global,82,A,No response,2026-03-15,0,false,true,bilingual operations data,Synthetic public row.
+JOB-0009,2026-03-09,SyntheticCo_09,Prompt Evaluator,Remote Board,Remote,Remote Global,78,B,Saved,2026-03-16,0,false,true,prompt ai quality,Synthetic public row.
+JOB-0010,2026-03-10,SyntheticCo_10,AI Training KYC Example,AI Platform,Remote,Colombia,89,A,Paused physical ID,2026-03-17,0,true,false,ai trainer identity verification,Synthetic blocker row.
+JOB-0011,2026-03-11,SyntheticCo_11,Data Operations Analyst,LinkedIn,Remote,Colombia,85,A,Needs human action,2026-03-18,0,false,true,data operations sql,Synthetic public row.
+JOB-0012,2026-03-12,SyntheticCo_12,Workforce RTA Analyst,Company Site,Onsite,Colombia,74,B,Skipped,2026-03-19,0,false,false,wfm rta onsite,Synthetic public row.
+JOB-0013,2026-03-13,SyntheticCo_13,Junior Data Analyst,Indeed,Remote,Remote Global,80,A,Applied,2026-03-20,0,false,false,data analyst excel python,Synthetic public row.
+JOB-0014,2026-03-14,SyntheticCo_14,AI Quality Analyst,Remote Board,Remote,US,87,A,Interview,2026-03-21,1,false,false,ai quality llm,Synthetic public row.
+JOB-0015,2026-03-15,SyntheticCo_15,Fintech Operations Analyst,Referral,Remote,LATAM,79,B,No response,2026-03-22,0,false,true,fintech operations bilingual,Synthetic public row.
