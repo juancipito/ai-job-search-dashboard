@@ -1,25 +1,37 @@
 # AI Job Search Automation Dashboard
 
-## What Problem Does This Solve?
-Job-search operations can become messy without a visible pipeline.
+> A synthetic job-search operations dashboard for tracking remote AI/data applications.
 
-## Why It Matters For Business
-This turns a personal operating workflow into a synthetic analytics dashboard, which demonstrates funnel thinking and automation readiness.
+![Demo](assets/demo.svg)
+
+## Recruiter Snapshot
+
+| 30-second question | Answer |
+| --- | --- |
+| Problem | Job-search operations can become messy without a visible funnel, follow-up cadence, and fit criteria. |
+| My role | I translated a personal workflow into a privacy-safe synthetic dashboard, defined the fields, built the Streamlit app, and documented the non-real-data boundary. |
+| Result | The demo tracks 15 synthetic applications with average fit score 83.3, response rate 20.0%, and one interview-status row. |
+| Portfolio signal | Shows initiative, operations discipline, and automation thinking while protecting real job-search data. |
+| Data policy | All records are synthetic and safe for a public portfolio. |
 
 ## What I Built
-A Streamlit dashboard with synthetic applications, fit score, platform, status, response rate, and follow-up fields.
 
-## Tools Used
-pandas, Streamlit, funnel analytics, automation thinking
+- Role-family filter and KPI cards.
+- Status funnel and applications-over-time chart.
+- Pipeline table with follow-up due date, readiness, remote type, and keyword tags.
 
-## Key Skills Demonstrated
-- Business problem framing.
-- Synthetic-data design for public portfolio use.
-- Reproducible Python workflow.
-- Clear documentation for recruiters and technical reviewers.
-- Privacy-safe storytelling: no employer, client, student, credential, medical, family, email, or real job-search data.
+## Evidence In This Repo
 
-## How To Run
+- `src/app.py` contains the Streamlit dashboard.
+- `data/sample_synthetic_data.csv` contains synthetic application rows.
+- `assets/demo.svg` gives a GitHub-ready preview.
+
+## Tools And Concepts
+
+`Python`, `pandas`, `Streamlit`, `funnel analytics`, `automation thinking`, `job-search ops`
+
+## Run Locally
+
 ```bash
 python -m venv .venv
 .venv\Scripts\activate
@@ -27,15 +39,16 @@ python -m pip install -r requirements.txt
 streamlit run src/app.py
 ```
 
-## Screenshots Placeholder
-Add one screenshot here before publishing:
-- Suggested capture: Status funnel and response-rate metric.
+## Limitations
 
-## What A Recruiter Should Notice
-Synthetic job-search funnel dashboard for fit score, platform, status, response rate, and follow-up tracking.
+The data is not my real application history. It is a synthetic operating model for a dashboard idea.
 
-## What I Learned
-This project helped me practice turning an operations or AI-evaluation idea into a small, executable artifact with clean documentation, measurable output, and safe synthetic data.
+## Next Iteration
+
+- Add saved filters for remote bilingual AI/data roles.
+- Add reminder logic for follow-up dates.
+- Add export to CSV or Google Sheets.
 
 ## Data Privacy
-All sample data is synthetic. This repository must not include private data from Teleperformance, Foundever, UAO, clients, professors, classmates, emails, credentials, IDs, health records, family records, or real job-search records.
+
+Every record, identifier, organization, person, scenario, and result in this project is synthetic unless explicitly marked otherwise. No employer, client, university, colleague, customer, credential, private path, or sensitive personal record is used.
